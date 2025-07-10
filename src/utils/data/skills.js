@@ -19,7 +19,6 @@ export const skillsData = [
   'Flutter',
   'Typescript',
   'Git',
-  'MongoDB',
   'PostgreSQL',
   'Firebase',
   'Graphql'
