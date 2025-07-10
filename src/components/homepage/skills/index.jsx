@@ -15,7 +15,6 @@ import cppIcon from "../../../assets/svg/skills/cplusplus.svg";
 import flutterIcon from "../../../assets/svg/skills/flutter.svg";
 import typescriptIcon from "../../../assets/svg/skills/typescript.svg";
 import gitIcon from "../../../assets/svg/skills/git.svg";
-import mongodbIcon from "./mongodb.svg";
 import postgresqlIcon from "../../../assets/svg/skills/postgresql.svg";
 import firebaseIcon from "../../../assets/svg/skills/firebase.svg";
 import graphqlIcon from "../../../assets/svg/skills/graphql.svg";
@@ -34,7 +33,6 @@ function Skills() {
     Flutter: flutterIcon,
     Typescript: typescriptIcon,
     Git: gitIcon,
-    MongoDB: mongodbIcon,
     PostgreSQL: postgresqlIcon,
     Firebase: firebaseIcon,
     Graphql: graphqlIcon,
