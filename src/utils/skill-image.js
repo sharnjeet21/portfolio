@@ -41,7 +41,7 @@ import materialui from '../assets/svg/skills/materialui.svg';
 import matlab from '../assets/svg/skills/matlab.svg';
 import memsql from '../assets/svg/skills/memsql.svg';
 import microsoftoffice from '../assets/svg/skills/microsoftoffice.svg';
-import mongoDB from '../assets/svg/skills/mongoDB.svg';
+import mongoDB from '../assets/svg/skills/mongodb.svg';
 import mysql from '../assets/svg/skills/mysql.svg';
 import nextJS from '../assets/svg/skills/nextJS.svg';
 import nginx from '../assets/svg/skills/nginx.svg';
