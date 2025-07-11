@@ -7,6 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
+import Typewriter from 'typewriter-effect';
 
 function HeroSection() {
   return (
@@ -26,8 +27,17 @@ function HeroSection() {
             This is {' '}
             <span className="text-[#FC1500]">{personalData.name}</span>
             {` , I'm a Professional `}
-            <span className=" text-[#3F926B]">{personalData.designation}</span>
-            .
+            <span className="text-[#3F926B]">
+              <Typewriter
+                options={{
+                  strings: ['Software Developer', 'App Developer', 'Web Developer', 'DevOps Engineer'],
+                  autoStart: true,
+                  loop: true,
+                  delay: 60,
+                  deleteSpeed: 40,
+                }}
+              />
+            </span>
           </h1>
 
           <div className="my-12 flex flex-wrap items-center justify-center lg:justify-start gap-5 pl-12 lg:pl-44">
