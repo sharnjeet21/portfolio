@@ -17,31 +17,31 @@ function Navbar() {
           <ul className="flex flex-row items-center space-x-4 text-sm" id="navbar-default">
             <li>
               <a href="#about" className="block px-4 py-2 no-underline outline-none hover:no-underline text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600 font-bold">
-                <img src="src/assets/svg/nav/about.svg" alt="ME" className="w-4 h-4 block md:hidden" />
+                <img src="public/svg/about.svg" alt="ME" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">ABOUT</span>
               </a>
             </li>
             <li>
               <a href="#experience" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">
-                <img src="src/assets/svg/nav/experience.svg" alt="XP" className="w-4 h-4 block md:hidden" />
+                <img src="public/svg/experience.svg" alt="XP" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">EXPERIENCE</span>
               </a>
             </li>
             <li>
               <a href="#skills" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">
-                <img src="src/assets/svg/nav/skills.svg" alt="SKL" className="w-4 h-4 block md:hidden" />
+                <img src="public/svg/skills.svg" alt="SKL" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">SKILLS</span>
               </a>
             </li>
             <li>
               <a href="#projects" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">
-                <img src="src/assets/svg/nav/projects.svg" alt="PRJ" className="w-4 h-4 block md:hidden" />
+                <img src="public/svg/projects.svg" alt="PRJ" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">PROJECTS</span>
               </a>
             </li>
             <li>
               <a href="#education" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">
-                <img src="src/assets/svg/nav/education.svg" alt="ED" className="w-4 h-4 block md:hidden" />
+                <img src="public/svg/education.svg" alt="ED" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">EDUCATION</span>
               </a>
             </li>
