@@ -29,7 +29,7 @@ function Navbar() {
             </li>
             <li>
               <a href="#skills" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">
-                <img src="/svg/skills.svg" alt="SKL" className="w-4 h-4 block md:hidden" />
+                <img src="/svg/skills.png" alt="SKL" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">SKILLS</span>
               </a>
             </li>
