@@ -16,38 +16,38 @@ function Navbar() {
 
           <ul className="flex flex-row items-center space-x-4 text-sm" id="navbar-default">
             <li>
-              <a href="#about" className="block px-4 py-2 no-underline outline-none hover:no-underline text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600 font-bold">
+              <a href="#about" className="block px-4 py-2 no-underline outline-none hover:no-underline text-sm text-gray-600 transition-colors duration-300 hover:text-purple-900 font-bold">
                 <img src="/svg/about.svg" alt="ME" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">ABOUT</span>
               </a>
             </li>
             <li>
-              <a href="#experience" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">
+              <a href="#experience" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-gray-600 transition-colors duration-300 hover:text-purple-900">
                 <img src="/svg/experience.svg" alt="XP" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">EXPERIENCE</span>
               </a>
             </li>
             <li>
-              <a href="#skills" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">
+              <a href="#skills" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-gray-600 transition-colors duration-300 hover:text-purple-900">
                 <img src="/svg/skills.png" alt="SKL" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">SKILLS</span>
               </a>
             </li>
             <li>
-              <a href="#projects" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">
+              <a href="#projects" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-gray-600 transition-colors duration-300 hover:text-purple-900">
                 <img src="/svg/projects.svg" alt="PRJ" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">PROJECTS</span>
               </a>
             </li>
             <li>
-              <a href="#education" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">
+              <a href="#education" className="block px-4 py-2 no-underline outline-none hover:no-underline font-bold text-sm text-gray-600 transition-colors duration-300 hover:text-purple-900">
                 <img src="/svg/education.svg" alt="ED" className="w-4 h-4 block md:hidden" />
                 <span className="hidden md:block">EDUCATION</span>
               </a>
             </li>
             <li>
               {/* <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" to="/#testimonials">
-              <div className=" font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">TESTIMONIALS</div></Link> */}
+              <div className=" font-bold text-sm text-gray-600 transition-colors duration-300 hover:text-purple-900">TESTIMONIALS</div></Link> */}
             </li>
           </ul>
         </div>

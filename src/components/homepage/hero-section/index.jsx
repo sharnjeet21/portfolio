@@ -25,10 +25,10 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-black md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className="text-[#FC1500]">{personalData.name},</span>
+            <span className="text-blue-500">{personalData.name},</span>
             <br/>
             {` I'm a Professional `}
-            <span className="text-[#3F926B]">
+            <span className="text-orange-400">
               <Typewriter
                 options={{
                   strings: ['Software Developer', 'App Developer', 'Web Developer', 'DevOps Engineer'],
@@ -41,7 +41,7 @@ function HeroSection() {
             </span>
           </h1>
 
-          <div className="my-12 flex flex-wrap items-center justify-center lg:justify-start gap-5 pl-12 lg:pl-44">
+          <div className="my-12 flex flex-wrap items-center justify-center lg:justify-start gap-5 pl-12 lg:pl-32">
           <a
               href={personalData.linkedIn}
               target='_blank'
@@ -89,15 +89,15 @@ function HeroSection() {
 
           </div>
 
-          <div className="flex flex-row items-center lg:justify-start gap-3 text-center pl-8 lg:pl-24">
-            <a href="#contact" className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
-              <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#FC1500] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out  md:font-semibold flex items-center gap-1 hover:gap-3">
+          <div className="flex flex-row items-center lg:justify-start gap-3 text-center pl-8 lg:pl-16">
+            <a href="#contact" className="p-[1px] rounded-full transition-all duration-300 ">
+              <button className="px-3 text-xs md:px-6 py-3 md:py-4 bg-[#1D91FF] hover:bg-[#1D91FF] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] hover:text-[#ffff] no-underline transition-all duration-200 ease-out md:font-semibold flex items-center gap-1 hover:gap-3">
                 <span>Contact me</span>
                 <RiContactsFill size={16} />
               </button>
             </a>
 
-            <a className="flex items-center gap-1 hover:gap-3 rounded-full bg-[#046a38] px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume} rel="noopener noreferrer"
+            <a className="flex items-center gap-1 hover:gap-3 hover:scale-105 transition-all duration-200 rounded-full bg-[#f44a28] px-3 md:px-6 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume} rel="noopener noreferrer"
             >
               <span>Get Resume</span>
               <MdDownload size={16} />

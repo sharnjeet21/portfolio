@@ -23,19 +23,25 @@ function ContactSection() {
         <div className="lg:w-3/4 ">
           <div className="flex flex-col gap-5 lg:gap-9">
             <p className="text-sm md:text-xl flex items-center gap-3">
-              <MdAlternateEmail
-                 className="bg-[#58504A] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
-                size={36}
+              <a href={`mailto:${personalData.email}`} className="text-[#046a38] text-xl font-bold hover:underline">
+
+               <MdAlternateEmail
+                   className="bg-[#58504A] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
+                  size={36}
               />
+            </a>
+
               <a href={`mailto:${personalData.email}`} className="text-[#046a38] text-xl font-bold hover:underline">
                 {personalData.email}
               </a>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
+              <a href={`tel:${personalData.phone}`} className="text-[#046a38] text-xl font-bold hover:underline">
               <IoMdCall
                 className="bg-[#6cdc2d] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
                 size={36}
               />
+              </a>
               <a href={`tel:${personalData.phone}`} className="text-[#046a38] text-xl font-bold hover:underline">
                 {personalData.phone}
               </a>
