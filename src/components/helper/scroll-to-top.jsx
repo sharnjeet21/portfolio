@@ -30,7 +30,7 @@ useEffect(() => {
   const onClickBtn = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
-    <button className={btnCls} onClick={onClickBtn}>
+    <button className={btnCls} onClick={onClickBtn} z-50>
       <FaArrowUp />
     </button>
   );

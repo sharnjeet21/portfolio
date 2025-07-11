@@ -10,13 +10,13 @@ import { SiLeetcode } from "react-icons/si";
 
 function HeroSection() {
   return (
-    <section className="relative flex flex-col items-center justify-between -mt-20 pt-28 pb-10 lg:pb-16">
+    <section className="relative flex flex-col items-center justify-between -mt-20 top-28 pb-10 lg:pb-16">
       <img
         src="/hero.svg"
         alt="Hero"
         width={1572}
         height={795}
-        className="absolute -top-10 -z-10"
+        className="absolute -top-32 -z-10"
       />
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
@@ -30,7 +30,7 @@ function HeroSection() {
             .
           </h1>
 
-          <div className="my-12 flex items-center gap-5">
+          <div className="my-12 flex flex-wrap items-center justify-center lg:justify-start gap-5 pl-12 lg:pl-44">
           <a
               href={personalData.linkedIn}
               target='_blank'
@@ -78,7 +78,7 @@ function HeroSection() {
 
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex flex-row items-center lg:justify-start gap-3 text-center pl-8 lg:pl-24">
             <a href="#contact" className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
               <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#FC1500] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out  md:font-semibold flex items-center gap-1 hover:gap-3">
                 <span>Contact me</span>

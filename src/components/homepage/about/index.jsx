@@ -5,8 +5,8 @@ import { personalData } from "../../../utils/data/personal-data";
 
 function AboutSection() {
   return (
-    <div id="about" className="my-12 lg:my-16 relative">
-      <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
+    <div id="about" className="my-12 lg:my-16 lg:pt-28 relative">
+      <div className="hidden lg:flex flex-col items-center absolute top-28 -right-8">
         <span className="bg-[#2F2F2F] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
           ABOUT ME
         </span>
