@@ -42,10 +42,10 @@ function ExpCard({ exp }) {
             <span className="text-gray-400">{'{'}</span>
           </div>
 
-          <div className="whitespace-pre text-left w-fit">
+          <div className="text-left w-full lg:w-fit whitespace-pre-wrap break-words">
             <span className="inline-block" style={{ width: "2rem" }}></span>
             <span className="text-white">myRole:</span>{' '}
-            <div className="text-orange-400 block lg:inline">{exp.title}</div>
+            <span className="text-orange-400 inline break-words">{exp.title}</span>
             <span className="text-gray-400">,</span>
           </div>
 
