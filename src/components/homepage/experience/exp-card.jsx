@@ -45,7 +45,7 @@ function ExpCard({ exp }) {
           <div className="whitespace-pre text-left w-fit">
             <span className="inline-block" style={{ width: "2rem" }}></span>
             <span className="text-white">myRole:</span>{' '}
-            <span className="text-orange-400">{exp.title}</span>
+            <div className="text-orange-400 block lg:inline">{exp.title}</div>
             <span className="text-gray-400">,</span>
           </div>
 
