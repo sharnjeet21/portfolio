@@ -4,7 +4,7 @@ export const educations = [
     title: "Bachelors Degree",
     duration: "2023 - Present",
     institution: "Guru Nanak Dev Engineering College Ludhiana",
-    gpa: "GPA: 7.79",
+    gpa: "GPA: 8.01",
     image: '/png/GNDEC.png'
   },
   {
@@ -18,3 +18,4 @@ export const educations = [
 
 
 ]
+
