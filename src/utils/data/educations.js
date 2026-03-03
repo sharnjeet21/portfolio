@@ -1,7 +1,7 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelorss Degree",
+    title: "Bachelors Degree",
     duration: "2023 - Present",
     institution: "Guru Nanak Dev Engineering College Ludhiana",
     gpa: "GPA: 7.79",
@@ -15,5 +15,6 @@ export const educations = [
     gpa: "Percentile: 78%",
     image: '/png/DPS.png'
   }
+
 
 ]
