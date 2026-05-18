@@ -31,7 +31,7 @@ function HeroSection() {
             <span className="text-orange-400">
               <Typewriter
                 options={{
-                  strings: ['Software Developer', 'App Developer', 'Web Developer', 'DevOps Engineer'],
+                  strings: ['Software Developer', 'AI Engineer', 'Machine Learning Engineer', 'Web Developer', 'DevOps Engineer'],
                   autoStart: true,
                   loop: true,
                   delay: 60,
